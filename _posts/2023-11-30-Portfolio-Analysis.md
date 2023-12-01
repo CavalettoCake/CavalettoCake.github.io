@@ -29,7 +29,8 @@ The following code uses tools of the **rvest** library to scrape data from finan
 
 ```r
 # This is a function that takes one argument: ticker. The function constructs a URL for the
-# Yahoo Finance page of the given ticker, then uses read_html to download and parse the HTML content of that page. 
+# Yahoo Finance page of the given ticker, then uses read_html to download and parse the HTML
+# content of that page. 
     get_financials <- function(ticker) {
       url <- paste0("https://finance.yahoo.com/quote/", ticker)
       page <- read_html(url)
