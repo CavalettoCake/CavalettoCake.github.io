@@ -6,7 +6,7 @@ tags: [github]
 render_with_liquid: false
 ---
 
-A quick reminder for hosting a blog on [GitHub Pages](https://pages.github.com/) to host a blog such as this one.  I am using the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) theme with [Jekyll](https://jekyllrb.com/). 
+A quick reminder for hosting a blog on [GitHub Pages](https://pages.github.com/) such as this one.  I am using the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) theme with [Jekyll](https://jekyllrb.com/). 
 
 ## Guides
 
@@ -14,8 +14,8 @@ A quick reminder for hosting a blog on [GitHub Pages](https://pages.github.com/)
 2. Install [Git](https://git-scm.com/), a version control system that works on your computer.
 3. Install Jekyll, a static site generator, following their [installation guides](https://jekyllrb.com/docs/installation/).
 4. Head over to Chirpy's [Getting Started](https://chirpy.cotes.page/posts/getting-started/) guide and follow it.
-  + Choose the fork option. Otherwise, you will have more files to create to get your build to deploy correctly
-  + Even with the fork option I met roadblocks due to missing configurations (on Windows). I had to run an extra command line found on Stackoverflow [here](https://stackoverflow.com/questions/72331753/ruby-and-rails-github-action-exit-code-16)
+  + Choose the fork option. Otherwise, you will have to create several files for your build to deploy correctly
+  + Running on Windows, I have met roadblocks due to missing configurations. I had to run an extra command line found on Stackoverflow [here](https://stackoverflow.com/questions/72331753/ruby-and-rails-github-action-exit-code-16)
   + If you follow the steps but your image does not show in the side bar, this command seems to fix it: `bash tools/init.sh`
 
 ## Useful commands
