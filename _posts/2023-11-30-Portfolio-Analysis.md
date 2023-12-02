@@ -104,10 +104,10 @@ The following blocks are to calculate the weighted averages. Here are the averag
 
 ```r
 # Calculate the weighted ER for each ticker
-financial_data$WeightedER <- round(financial_data$ExpenseRatio * financial_data$Weight, 2)
+financial_data$WeightedER <- financial_data$ExpenseRatio * financial_data$Weight
 
 # Calculate the sum of the weighted ER  to get the weighted average ER
-weighted_average_er <- sum(financial_data$WeightedER)
+weighted_average_er <- round(sum(financial_data$WeightedER),2)
 
 print(paste("Weighted Average ER:", weighted_average_er))
 ```
@@ -120,7 +120,7 @@ Here are the weighted average PE ratios.
 financial_data$WeightedPE <- round(financial_data$PE * financial_data$Weight, 2)
 
 # Calculate the sum of the weighted PEs to get the weighted average PE
-weighted_average_pe <- sum(financial_data$WeightedPE)
+weighted_average_pe <- round(sum(financial_data$WeightedPE),2)
 
 print(paste("Weighted Average PE:", weighted_average_pe))
 
