@@ -13,7 +13,7 @@ A few quick reminders on using [GitHub Pages](https://pages.github.com/) to host
 1. Head over to [GitHub](https://github.com/), a web-based version control service, and create an account.
 2. Install [Git](https://git-scm.com/), a version control system that works on your computer.
 3. Install Jekyll, a static site generator, following their [installation guides](https://jekyllrb.com/docs/installation/).
-4. Head over to Chirpy's [Getting Started](https://chirpy.cotes.page/posts/getting-started/] guide and follow it.
+4. Head over to Chirpy's [Getting Started](https://chirpy.cotes.page/posts/getting-started/) guide and follow it.
   + Choose the fork option. Otherwise, you will have more files to create to get your build to deploy correctly
   + Even with the fork option I met roadblocks due to missing configurations (on Windows). I had to run an extra command line found on Stackoverflow [here](https://stackoverflow.com/questions/72331753/ruby-and-rails-github-action-exit-code-16)
 
