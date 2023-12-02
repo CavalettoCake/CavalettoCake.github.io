@@ -21,7 +21,7 @@ A few quick reminders on using [GitHub Pages](https://pages.github.com/) to host
 
 You can edit your files on GitHub and commit every change, but is more efficient to do so locally and commit once you are all done. Here are some useful commands. They must all be **run from your site’s directory**.
 
-## Git commands
+### Git commands
 
 See changes about to be staged
 : `git status`
@@ -36,7 +36,7 @@ Commit
 Update the GitHub repository with your local repository
 : `git push origin master` when `master` is the name of you site's branch. Replace with whatever it is called.
 
-## Ruby commands
+### Ruby commands
 
 Before pushing your repository you might want to check what the changes look like on your site. This command starts a development server on your local machine and allows you to view your Jekyll site in a web browser.
 
