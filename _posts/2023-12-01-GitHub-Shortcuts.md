@@ -6,7 +6,7 @@ tags: [github]
 render_with_liquid: false
 ---
 
-A few quick reminders on using [GitHub Pages](https://pages.github.com/) to host a blog such as this one.  I am using the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) theme using the [Jekyll tool](https://jekyllrb.com/). 
+A quick reminder for hosting a blog on [GitHub Pages](https://pages.github.com/) to host a blog such as this one.  I am using the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) theme with [Jekyll](https://jekyllrb.com/). 
 
 ## Guides
 
