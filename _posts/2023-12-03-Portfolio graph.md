@@ -161,4 +161,4 @@ ggplot(comp_long, aes(x = Date, y = Value, color = Series)) +
 
 This is it for now.
 
-[^footnote]: Thank you to C. Kincaid for the tips on this [Medium article](https://towardsdatascience.com/building-and-testing-stock-portfolios-in-r-d1b7b6f59ac4).
+[^footnote]: Credit to C. Kincaid for the tips in this [Medium article](https://towardsdatascience.com/building-and-testing-stock-portfolios-in-r-d1b7b6f59ac4).
