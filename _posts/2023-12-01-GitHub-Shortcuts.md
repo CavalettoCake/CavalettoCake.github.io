@@ -24,6 +24,9 @@ It's possible to edit your files directly on GitHub and commit every change, but
 
 ### Git commands
 
+Clone the repository to your local machine
+: `git clone https://github.com/REPONAME.github.io`
+
 See changes about to be staged
 : `git status`
 
