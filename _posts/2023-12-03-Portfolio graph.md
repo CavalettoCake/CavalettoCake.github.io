@@ -33,7 +33,7 @@ ggplot(financial_data, aes(x = "", y = Weight, fill = Ticker)) +
     theme(plot.title = element_text(hjust = 0.5, color = "#666666")) #color the chart
 ```
 
-![Pie chart](../assets/img/20231203-pie%20chart-1.png)
+![Pie chart](/assets/img/20231203-pie%20chart-1.png)
 
 ## Calculating stock returns[^footnote]
 
@@ -109,7 +109,7 @@ corr_matrix <- cor(returns_corr) # create a corr data table
 corrplot(corr_matrix, method = "color", type = "upper",
          addCoef.col = "black", tl.col = "black", tl.srt = 45)
 ```
-![Corrplot](../assets/img/20231203-corrplot.png)
+![Corrplot](/assets/img/20231203-corrplot.png)
 
 ## Making a graph of the portfolio returns compared to a benchmark
 
@@ -154,7 +154,7 @@ ggplot(comp_long, aes(x = Date, y = Value, color = Series)) +
   theme_minimal()
 
 ```
-![Corrplot](../assets/img/20231203-returns-chart.png)
+![Corrplot](/assets/img/20231203-returns-chart.png)
 
 > You can also use the `dygraphs` package to create your chart. This package uses JavaScript charting library to create interactive plots allowing you to zoom and hover over point for more details.
 {: .prompt-tip }
