@@ -145,8 +145,11 @@ comp_df <- data.frame(Date = index(comp), Portfolio = comp[,1], Benchmark = comp
 comp_long <- pivot_longer(comp_df, cols = c(Portfolio, Benchmark), 
                           names_to = "Series", values_to = "Value")
 
-library(ggplot2)
+```
 
+Now that the data frames are done we can build the graph.
+
+```r
 ggplot(comp_long, aes(x = Date, y = Value, color = Series)) +
   geom_line() +
   labs(title = "Portfolio Performance vs. Benchmark",
