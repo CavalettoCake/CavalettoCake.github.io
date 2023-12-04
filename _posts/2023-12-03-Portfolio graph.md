@@ -6,7 +6,7 @@ tags: [finance, graphs]
 render_with_liquid: false
 ---
 
-This post is a follow-up to a previous post where we created data tables with values and metrics from tickers in a portfolio. I will be using the same data tables (see the code here). In this post, we will calculate portfolio returns and create charts and graphs.
+This post is a follow-up to a [previous post](https://cavalettocake.github.io/posts/Portfolio-graph/) where we created data tables with values and metrics from tickers in a portfolio. The same data frames will be used here (see previous post for code). In this post, we will calculate portfolio returns and create charts and graphs.
 
 ## Create a pie chart of the portfolio
 
@@ -16,6 +16,7 @@ We will use `ggplot2` to create a pie chart. In the previous thread, we used the
   library(tidyverse) #or ggplot2
 
 # Convert Ticker to a factor with levels ordered by Weight. This is for the ordering of the slices in the chart.
+# `financial_data` was created in the previous post
   financial_data$Ticker <- factor(financial_data$Ticker, levels = 
   financial_data$Ticker[order(financial_data$Weight, decreasing =  FALSE)])
 
