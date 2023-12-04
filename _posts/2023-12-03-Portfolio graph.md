@@ -96,7 +96,7 @@ round(tail(returns, n = 5), 4)
 
 ## Analyzing portfolio composition. 
 
-Using the `corrplot` package, a specialized package designed for visualizing correlation matrices, we can quickly grasp the correlation between the stocks in the portfolio. Since they are all equities, you expect a positive correlation. The AV tickers (like AVUV) overlap with the other funds, with an added tilt towards (small cap) value. In the case of this portfolio, we expect a strong correlation between these groups:
+Using the `corrplot`, a specialized package designed for visualizing correlation matrices, we can quickly grasp the correlation between the stocks in the portfolio. Since they are all equities, you expect a positive correlation. The AV tickers (like AVUV) overlap with the other funds, with an added tilt towards (small cap) value. In the case of this portfolio, we expect a strong correlation between these groups:
 
 - VUN.TO & AVUV
 - XEF.TO & AVDV
